@@ -17,7 +17,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -63,7 +63,13 @@ sub new {
 	return $self;
 }
 
-=head2 formats - Return an array of all the available formats.
+=head2 formats()
+
+=over
+
+Return an array of all the available formats.
+
+=back
 
 =cut
 
@@ -78,7 +84,13 @@ sub formats {
 	return @formats;
 }
 
-=head2 fetch - Returns the IP in the format specified by the api parameter.
+=head2 fetch($format)
+
+=over
+
+Returns the IP in the format specified by the format parameter.
+
+=back
 
 =cut
 
@@ -111,11 +123,8 @@ Mark Caudill, C<< <mcaudill at cpan.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-net-ip-flakweb at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Net-IP-Flakweb>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-
+Please report any bugs or feature requests at
+L<https://bitbucket.org/flakblas/net-ip-flakweb/issues>.
 
 
 =head1 SUPPORT
@@ -129,26 +138,11 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker
+=item * Project Wiki
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-IP-Flakweb>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Net-IP-Flakweb>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Net-IP-Flakweb>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Net-IP-Flakweb/>
+L<https://bitbucket.org/flakblas/net-ip-flakweb/wiki/Home>
 
 =back
-
-
-=head1 ACKNOWLEDGEMENTS
 
 
 =head1 LICENSE AND COPYRIGHT

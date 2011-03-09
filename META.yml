@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Net-IP-Flakweb
-version:            0.01
+version:            0.02
 abstract:           A simple interface for ip.flakweb.net to determine your
 author:
     - Mark Caudill <mcaudill@cpan.org>
